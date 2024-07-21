@@ -46,5 +46,11 @@ About the file:
 		5b. Compute cluster size given the number of clusters and effect size 
 		5c. Compute effect size for a given cluster size and number of clusters
 
+
+# Balance tests
+A balance test checks whether the randomization “worked” beyond just assigning the right number of units in each treatment arm, by formally testing for differences in observable characteristics between the treatment and control groups. 
+
+To test for differences, regression is generally preferred to t-tests, because it allows for the correction of standard errors (e.g., clustering, making robust to heteroskedasticity, and bootstrapping) and the inclusion of fixed effects (e.g., enumerator and strata). Balance test regressions should use the same specification as your final regression when possible. 
+
 I calculate power using a dummy dataset provided by J-PAL, simulated using an underlying sample distribution and a few design parameters. The underlying distribution and the design factors can be changed to suit the context of use.
 
