@@ -6,9 +6,9 @@ A type I error is a false positive: falsely rejecting the null hypothesis of no 
 
 A type II error is a false negative: failing to detect an effect when there is one. The probability of committing type II error is typically given by β. To differentiate it from the treatment effect β, in this resource we denote type II errors by κ.
 
-Power is the probability of rejecting a false null hypothesis. Formally, power is typically given by 1-β. Again, to differentiate power from the treatment effect β, in this resource we will denote power by 1-κ. That is, maximizing statistical power is to minimize the likelihood of committing a type II error.
+Power is the probability of rejecting a false null hypothesis. Formally, power is typically given by 1-β. Again, to differentiate power from the treatment effect β, in this resource we will denote power by 1-κ. That is, maximizing statistical power is to minimize the likelihood of committing a type II error. 
 
-Power calculations involve either determining the sample size needed to detect the minimum detectable effect (MDE) given other parameters, or determining the effect size that can be detected given a set sample size and other parameters. 
+Power calculations involve either determining the sample size needed to detect the minimum detectable effect (MDE) given other parameters, or determining the effect size that can be detected given a set sample size and other parameters. Power is also affected by the design of the evaluation, the take up of the treatment, and the attrition rate, discussed in greater detail below. 
 
 This repository contains some sample code on conducting power calculations in STATA. All files are self contained and can be run independently from the other scripts. Please read the code preamble for more details on each file. 
 
