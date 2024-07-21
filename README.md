@@ -1,5 +1,15 @@
 # Power-and-Balance-Test
 
+The sensitivity of an experiment to detect differences between the treatment and the control groups is measured by statistical power.  
+
+A type I error is a false positive: falsely rejecting the null hypothesis of no effect, or falsely concluding that the intervention had an effect when it did not. The probability of committing type I error is known as α.
+
+A type II error is a false negative: failing to detect an effect when there is one. The probability of committing type II error is typically given by β. To differentiate it from the treatment effect β, in this resource we denote type II errors by κ.
+
+Power is the probability of rejecting a false null hypothesis. Formally, power is typically given by 1-β. Again, to differentiate power from the treatment effect β, in this resource we will denote power by 1-κ. That is, maximizing statistical power is to minimize the likelihood of committing a type II error.
+
+Power calculations involve either determining the sample size needed to detect the minimum detectable effect (MDE) given other parameters, or determining the effect size that can be detected given a set sample size and other parameters. 
+
 This repository contains some sample code on conducting power calculations in STATA. All files are self contained and can be run independently from the other scripts. Please read the code preamble for more details on each file. 
 
 I use in-built power commands in STATA to calculate sample size and minimum detectable effect size with or without covariates and with or without imperfect compliance in individual and clustered models. Both files can be run with any baseline dataset with a continuous outcome and binary treatment variable. 
